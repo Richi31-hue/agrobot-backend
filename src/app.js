@@ -14,4 +14,4 @@ mongoose.connect(process.env.MONGO_URI)
   .catch(err => console.error('❌ Error MongoDB:', err));
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`🚀 AgroBot Backend corriendo en puerto ${PORT}`));1
+app.listen(PORT, () => console.log(`🚀 AgroBot Backend corriendo en puerto ${PORT}`));
